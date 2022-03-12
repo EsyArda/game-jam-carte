@@ -1,4 +1,14 @@
-# game-jam-carte
-Game Jam "À la carte"
+# Game Jam Carte
 
-ThomasQtl est passé par là !
+> Game Jam "À la carte"
+
+## Équipe
+
+- ThomasQtl
+- Baptiste
+- Marian
+- Lilian
+
+## Sources
+
+- <http://lotromap.net/lotromapmain.html>
