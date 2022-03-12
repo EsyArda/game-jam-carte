@@ -39,9 +39,9 @@ namespace RPGM.UI
         void DialogControl()
         {
             model.player.nextMoveCommand = Vector3.zero;
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            if ((Input.GetKeyDown(KeyCode.LeftArrow)) || (Input.GetKey(KeyCode.Q)))
                 model.dialog.FocusButton(-1);
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
+            else if ((Input.GetKeyDown(KeyCode.RightArrow)) || (Input.GetKey(KeyCode.D)))
                 model.dialog.FocusButton(+1);
             if ((Input.GetKeyDown(KeyCode.Return)) || (Input.GetKeyDown(KeyCode.KeypadEnter)))
                 model.dialog.SelectActiveButton();
