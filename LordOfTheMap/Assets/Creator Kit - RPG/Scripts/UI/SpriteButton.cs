@@ -2,6 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 
 namespace RPGM.UI
@@ -31,6 +32,7 @@ namespace RPGM.UI
             if (onClickEvent != null) onClickEvent();
             textMeshPro.color = Color.white;
             UserInterfaceAudio.OnButtonClick();
+            SceneManager.LoadScene("Lotr");
         }
 
         public void OnPointerClick(PointerEventData eventData) => Click();
