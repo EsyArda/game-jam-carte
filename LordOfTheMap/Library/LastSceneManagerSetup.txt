@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Creator Kit - RPG/Scenes/Lotr.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
