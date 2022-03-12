@@ -43,19 +43,23 @@ namespace RPGM.UI
                 model.dialog.FocusButton(-1);
             else if (Input.GetKeyDown(KeyCode.RightArrow))
                 model.dialog.FocusButton(+1);
-            if (Input.GetKeyDown(KeyCode.Space))
+            if ((Input.GetKeyDown(KeyCode.Return)) || (Input.GetKeyDown(KeyCode.KeypadEnter)))
                 model.dialog.SelectActiveButton();
         }
 
         void CharacterControl()
         {
-            if (Input.GetKey(KeyCode.UpArrow))
+            if ((Input.GetKeyDown(KeyCode.RightControl)) || (Input.GetKeyDown(KeyCode.LeftControl)))
+                model.player.speed = 30;
+            if ((Input.GetKeyUp(KeyCode.RightControl)) || (Input.GetKeyUp(KeyCode.LeftControl)))
+                model.player.speed = 15;
+            if ((Input.GetKey(KeyCode.UpArrow)) || (Input.GetKey(KeyCode.Z)))
                 model.player.nextMoveCommand = Vector3.up * stepSize;
-            else if (Input.GetKey(KeyCode.DownArrow))
+            else if ((Input.GetKey(KeyCode.DownArrow)) || (Input.GetKey(KeyCode.S)))
                 model.player.nextMoveCommand = Vector3.down * stepSize;
-            else if (Input.GetKey(KeyCode.LeftArrow))
+            else if ((Input.GetKey(KeyCode.LeftArrow)) || (Input.GetKey(KeyCode.Q)))
                 model.player.nextMoveCommand = Vector3.left * stepSize;
-            else if (Input.GetKey(KeyCode.RightArrow))
+            else if ((Input.GetKey(KeyCode.RightArrow)) || (Input.GetKey(KeyCode.D)))
                 model.player.nextMoveCommand = Vector3.right * stepSize;
             else
                 model.player.nextMoveCommand = Vector3.zero;
