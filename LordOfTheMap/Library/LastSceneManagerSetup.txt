@@ -1,11 +1,11 @@
 sceneSetups:
 - path: Assets/Scenes/menu.unity
   isLoaded: 1
-  isActive: 0
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/menuFin.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Creator Kit - RPG/Scenes/Lotr.unity
   isLoaded: 0
