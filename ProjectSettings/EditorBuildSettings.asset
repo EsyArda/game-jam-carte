@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Creator Kit - RPG/Scenes/BlankScene 1.unity
-    guid: 30839d5427b684a809b3f13fa94e3b0c
+    path: Assets/Scenes/Menu.unity
+    guid: 68722ab2f87352b4d9b9a77a623cde84
+  - enabled: 1
+    path: Assets/Creator Kit - RPG/Scenes/Lotr.unity
+    guid: ab67c22edfc2ebc4aa07dc8bf05e260f
   m_configObjects: {}
