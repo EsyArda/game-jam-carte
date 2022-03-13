@@ -1,23 +1,27 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using System;
 
 namespace RPGM.Gameplay
 {
     public class MusicController : MonoBehaviour
     {
         public AudioMixerGroup audioMixerGroup;
+
+        public AudioClip[] audioSources;
         public AudioClip audioClip;
+
         public float crossFadeTime = 3;
 
         AudioSource audioSourceA, audioSourceB;
         float audioSourceAVolumeVelocity, audioSourceBVolumeVelocity;
 
-        public void CrossFade(AudioClip audioClip)
+        public void CrossFade(AudioClip audioclip)
         {
             var t = audioSourceA;
             audioSourceA = audioSourceB;
             audioSourceB = t;
-            audioSourceA.clip = audioClip;
+            audioSourceA.clip = audioclip;
             audioSourceA.Play();
         }
 
@@ -29,9 +33,15 @@ namespace RPGM.Gameplay
 
         void OnEnable()
         {
+            var aleatoire = new System.Random();
+            int rand = aleatoire.Next(1, 7);
+
+            
+
             audioSourceA = gameObject.AddComponent<AudioSource>();
             audioSourceA.spatialBlend = 0;
-            audioSourceA.clip = audioClip;
+            //audioSourceA.clip = audioClip;
+            audioSourceA.clip = audioSources[UnityEngine.Random.Range(0, audioSources.Length)];
             audioSourceA.loop = true;
             audioSourceA.outputAudioMixerGroup = audioMixerGroup;
             audioSourceA.Play();

@@ -15,11 +15,11 @@ C:/Users/81mar/Documents/Marian/GameJam Carte/game-jam-carte/LordOfTheMap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55463
+50438
 Successfully changed project path to: C:/Users/81mar/Documents/Marian/GameJam Carte/game-jam-carte/LordOfTheMap
 C:/Users/81mar/Documents/Marian/GameJam Carte/game-jam-carte/LordOfTheMap
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 83.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path D:/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,80 +35,160 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001454 seconds.
+Registered in 0.001490 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.545 seconds
+- Completed reload, in  0.543 seconds
 Domain Reload Profiling:
-	ReloadAssembly (545ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (544ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (431ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (179ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (174ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
+				RefreshPlugins (64ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005636 seconds.
+Registered in 0.005541 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C689F63250 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000023C43AFA870 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C689F63250 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-0000023DFF6A2C30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF40B870 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43AFA870 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF6CBB70 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF6F0780 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF6F0780 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF705990 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF919A30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF85A120 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF85A120 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF888330 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43AFA870 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43A1C030 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF888330 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43A8AE20 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43E9A220 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43CBAC20 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43FDD010 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF9DCC20 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF706220 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF738F60 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF40CC30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43609010 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43809A40 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C434B6010 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C432A2020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF9DCC20 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43632940 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43958080 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C44B7E720 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF40C470 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF40C870 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43EC8020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43CC2C30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43617020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFEF76B70 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43C5A830 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43CDD030 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF6A3E20 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF6A2C30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43632940 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 70.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
+- Completed reload, in  1.072 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1086ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (890ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (883ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (294ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (339ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (342ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -117,14 +197,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.4 MB.
-System memory in use after: 135.6 MB.
+System memory in use before: 134.9 MB.
+System memory in use after: 135.1 MB.
 
 Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3580.
-Total: 3.120500 ms (FindLiveObjects: 0.297200 ms CreateObjectMapping: 0.197500 ms MarkObjects: 2.594100 ms  DeleteObjects: 0.030700 ms)
+Total: 3.451300 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.174000 ms MarkObjects: 2.967200 ms  DeleteObjects: 0.031000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -138,278 +218,145 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/MiniMap.png
-  artifactKey: Guid(190398b9c2fa7a540adf05b932f97534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiniMap.png using Guid(190398b9c2fa7a540adf05b932f97534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f34f5f9d18b921d87535155d01c405') in 0.138371 seconds 
+  path: Assets/Map Renderer.renderTexture
+  artifactKey: Guid(b0c3ef8b8f294184890482eea244d7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map Renderer.renderTexture using Guid(b0c3ef8b8f294184890482eea244d7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606b877e017b881a2b7fc0c52c02ab6e') in 0.096364 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/MiniMap 1.png
-  artifactKey: Guid(556ed93aecc61e2409e872e3e53ea667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiniMap 1.png using Guid(556ed93aecc61e2409e872e3e53ea667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d81dc0e12a81c1cff310b730e6691a') in 0.020598 seconds 
+  Time since last request: 0.000277 seconds.
+  path: Assets/map.png
+  artifactKey: Guid(f1bbbd33ce0ab8440baca110d29d699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map.png using Guid(f1bbbd33ce0ab8440baca110d29d699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0990013d14a12ec7c9221057fc220e') in 0.042514 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005395 seconds.
+Registered in 0.005246 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C6897D3020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000023C43FC64C0 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C6897D3020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-0000023C44E16A30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF26DFE0 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C46C61E30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C433FE020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C483EC030 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C483EC030 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C44F82070 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C483EC030 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C483EC030 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43EC8020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C470EC020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C46C61E30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43E5D040 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C482D4580 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFEF2D880 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF941330 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C483F4A40 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF40DF40 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF9FD190 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C444931E0 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C4892BC60 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C4487B440 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43667010 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFFA05FC0 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C434B6010 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C46F3B030 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF9FD190 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43667010 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C5690E350 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C47153BA0 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF26E9E0 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF26E9E0 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C47068030 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C43AF9410 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C4466C020 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFFBE3A70 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C46C61E30 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C47D67010 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFEF134D0 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023C46E20250 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023DFF659010 doesn't match image C:\Users\81mar\Documents\Marian\GameJam Carte\game-jam-carte\LordOfTheMap\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.931 seconds
 Domain Reload Profiling:
 	ReloadAssembly (931ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (762ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (264ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.4 MB.
-System memory in use after: 131.6 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3590.
-Total: 3.363800 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.203400 ms MarkObjects: 2.868600 ms  DeleteObjects: 0.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 78.588350 seconds.
-  path: Assets/Minimap Render Texture 1.renderTexture
-  artifactKey: Guid(b0c3ef8b8f294184890482eea244d7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimap Render Texture 1.renderTexture using Guid(b0c3ef8b8f294184890482eea244d7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0776d1c0f014c32d7c9ef808865ae4fd') in 0.038344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.778448 seconds.
-  path: Assets/Map Renderer.renderTexture
-  artifactKey: Guid(b0c3ef8b8f294184890482eea244d7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map Renderer.renderTexture using Guid(b0c3ef8b8f294184890482eea244d7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811e9f05f151e36fd98b734cc60f4262') in 0.021323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.288835 seconds.
-  path: Assets/pirate-map-png-Transparent-Images.png
-  artifactKey: Guid(f1bbbd33ce0ab8440baca110d29d699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pirate-map-png-Transparent-Images.png using Guid(f1bbbd33ce0ab8440baca110d29d699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad724c0182654125ed984fb956f385d8') in 0.034906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.393876 seconds.
-  path: Assets/map.png
-  artifactKey: Guid(f1bbbd33ce0ab8440baca110d29d699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map.png using Guid(f1bbbd33ce0ab8440baca110d29d699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bc5ea4c1b3aa9a8fa62cfa05c67ad4') in 0.029609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.014236 seconds.
-  path: Assets/Creator Kit - RPG/Scripts
-  artifactKey: Guid(ff7f58b36ba2e4ca79137834b92cabb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Scripts using Guid(ff7f58b36ba2e4ca79137834b92cabb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee873b3aefc0a3a176d87c34f4f0751') in 0.010887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.043124 seconds.
-  path: Assets/Creator Kit - RPG/Scripts/MapController.cs
-  artifactKey: Guid(8c4a68a742e9b2342a0095b59d7888a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Scripts/MapController.cs using Guid(8c4a68a742e9b2342a0095b59d7888a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dc0de76dbfdaac79a8929a41c2a37a') in 0.007976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.939853 seconds.
-  path: Assets/Creator Kit - RPG/Scripts/MapCameraController.cs
-  artifactKey: Guid(32608dee7dbc31b4f87fe106bb7337cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Scripts/MapCameraController.cs using Guid(32608dee7dbc31b4f87fe106bb7337cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8244f8b95061b09d62a37ec80a81be') in 0.013983 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005147 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.959 seconds
-Domain Reload Profiling:
-	ReloadAssembly (959ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (768ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.5 MB.
-System memory in use after: 131.8 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3599.
-Total: 3.790300 ms (FindLiveObjects: 0.328400 ms CreateObjectMapping: 0.319300 ms MarkObjects: 3.114200 ms  DeleteObjects: 0.027500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005423 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.934 seconds
-Domain Reload Profiling:
-	ReloadAssembly (935ms)
 		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (770ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (265ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.6 MB.
-System memory in use after: 131.8 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3601.
-Total: 3.208800 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.209600 ms MarkObjects: 2.640700 ms  DeleteObjects: 0.023100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005249 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (925ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (757ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (281ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (257ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.6 MB.
-System memory in use after: 131.8 MB.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.2 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3603.
-Total: 3.528900 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.177900 ms MarkObjects: 3.051600 ms  DeleteObjects: 0.022000 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3591.
+Total: 3.471400 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.188900 ms MarkObjects: 2.984700 ms  DeleteObjects: 0.025900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
